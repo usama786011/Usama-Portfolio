@@ -46,12 +46,6 @@ function Home2() {
               .
               <br />
               <br />
-              {/* Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
-              <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
-              </i> */}
             </p>
           </Col>
           <Col md={4} className="myAvtar">

@@ -4,14 +4,8 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-import Techstack from "../About/Techstack";
-import Github from "../About/Github";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import {AiFillGithub} from "react-icons/ai";
+import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 
 function Home() {
   return (
@@ -69,16 +63,6 @@ function Home() {
                   <AiFillGithub />
                 </a>
               </li>
-              {/* <li className="social-icons">
-                <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li> */}
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/usama786011"
@@ -89,16 +73,15 @@ function Home() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              {/* <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/soumyajit4419"
+              <li className="social-icons">
+                <a href="https://wa.me/923351456999"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
+                  >
+                    <FaWhatsapp/>
                 </a>
-              </li> */}
+              </li>
             </ul>
           </Col>
         </Row>
