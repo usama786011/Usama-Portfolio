@@ -1,142 +1,111 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { SiNextdotjs, SiSolidity } from "react-icons/si";
-import { FaRust } from "react-icons/fa";
-import Go from "../../Assets/TechIcons/go.svg";
-import C from "../../Assets/TechIcons/C++.svg";
-import Javascript from "../../Assets/TechIcons/Javascript.svg";
-import Node from "../../Assets/TechIcons/Node.svg";
-import ReactIcon from "../../Assets/TechIcons/React.svg";
-import HaskellIcon from "../../Assets/TechIcons/Haskell.svg";
-import Java from "../../Assets/TechIcons/Java.svg";
 import Python from "../../Assets/TechIcons/Python.svg";
-import Typescript from "../../Assets/TechIcons/Typescript.svg";
-import Git from "../../Assets/TechIcons/Git.svg";
-import Firebase from "../../Assets/TechIcons/Firebase.svg";
-import Redis from "../../Assets/TechIcons/Redis.svg";
-import Docker from "../../Assets/TechIcons/Docker.svg";
-import Mongo from "../../Assets/TechIcons/Mongo.svg";
-import SQL from "../../Assets/TechIcons/SQL.svg";
-import Kubernates from "../../Assets/TechIcons/Kubernates.svg";
-import Redux from "../../Assets/TechIcons/Redux.svg";
 import Tailwind from "../../Assets/TechIcons/Tailwind.svg";
-import MUI from "../../Assets/TechIcons/MUI.svg";
-import Postman from "../../Assets/TechIcons/Postman.svg";
-import AWS from "../../Assets/TechIcons/AWS.svg";
-import Kafka from "../../Assets/TechIcons/Kafka.svg";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+
+
       <Col xs={4} md={2} className="tech-icons">
-        <img src={C} alt="C++" />
-        <div className="tech-icons-text">C++</div>
+        <a href="https://www.flaticon.com/free-icons/automation" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/128/12539/12539814.png" width="25" /></a>
+        <div className="tech-icons-text">Automation Testing</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Javascript} alt="javascript" />
-        <div className="tech-icons-text">Javascript</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Typescript} alt="typescript" />
-        <div className="tech-icons-text">Javascript</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Go} alt="go" />
-        <div className="tech-icons-text">Go</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Node} alt="node" />
-        <div className="tech-icons-text">Node.Js</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={ReactIcon} alt="react" />
-        <div className="tech-icons-text">React.Js</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity fontSize={"24px"} />
-        <div className="tech-icons-text">Solidity</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Mongo} alt="mongoDb" />
-        <div className="tech-icons-text">Mongo DB</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Redux} alt="redux" />
-        <div className="tech-icons-text">Redux</div>
+        <a href="https://www.flaticon.com/free-icons/test" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/128/1238/1238450.png" width="25" /></a>
+        <div className="tech-icons-text">Manual Testing</div>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs fontSize={"24px"} />
-        <div className="tech-icons-text">Next.js</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Git} alt="git" />
-        <div className="tech-icons-text">Git</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Firebase} alt="firebase" />
-        <div className="tech-icons-text">Firebase</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Redis} alt="redis" />
-        <div className="tech-icons-text">Redis</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Docker} alt="docker" />
-        <div className="tech-icons-text">Docker</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Kubernates} alt="kubernetes" />
-        <div className="tech-icons-text">Kubernetes</div>
+        <a href="https://www.flaticon.com/" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/128/9335/9335803.png" width="25" /></a>
+        <div className="tech-icons-text">Test Case Design & Execution</div>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <img src={SQL} alt="SQL" />
-        <div className="tech-icons-text">Postgresql</div>
+        <a href="https://www.flaticon.com/" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/128/10061/10061742.png" width="25" /></a>
+        <div className="tech-icons-text">Bug Reporting & Defect Tracking</div>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <a href="https://www.flaticon.com/" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/128/3967/3967015.png" width="25" /></a>
+        <div className="tech-icons-text">Agile / Scrum</div>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <a href="https://www.flaticon.com/free-icons/software-development" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/128/11629/11629115.png" width="25" /></a>
+        <div className="tech-icons-text">Software Development Life Cycle</div>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <a href="https://www.flaticon.com/" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/128/16942/16942749.png" width="25" /></a>
+        <div className="tech-icons-text">Software Testing Life Cycle</div>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <a href="https://www.flaticon.com/" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/128/3242/3242257.png" width="25" /></a>
+        <div className="tech-icons-text">Frontend Developer</div>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <a href="https://www.flaticon.com/" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/128/3227/3227574.png" width="25" /></a>
+        <div className="tech-icons-text">Theme Customization (UI Styling)</div>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
         <img src={Python} alt="Python" />
         <div className="tech-icons-text">Python</div>
       </Col>
+
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Java} alt="haskell" />
-        <div className="tech-icons-text">Java</div>
+        <a href="https://www.flaticon.com/free-icons/html" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" width="25" /></a>
+        <div className="tech-icons-text">HTML</div>
       </Col>
+
       <Col xs={4} md={2} className="tech-icons">
-        <img src={HaskellIcon} alt="haskell" />
-        <div className="tech-icons-text">Haskell</div>
+        <a href="https://www.flaticon.com/free-icons/css-3" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" width="25" /></a>
+        <div className="tech-icons-text">CSS</div>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <a href="https://www.flaticon.com/free-icons/bootstrap" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968672.png" width="25" /></a>
+        <div className="tech-icons-text">Bootstrap</div>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
         <img src={Tailwind} alt="tailwind" />
         <div className="tech-icons-text">Tailwind CSS</div>
       </Col>
-
       <Col xs={4} md={2} className="tech-icons">
-        <img src={MUI} alt="mui" />
-        <div className="tech-icons-text">Material UI</div>
+        <a href="https://www.flaticon.com/" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/128/10645/10645621.png" width="25" /></a>
+        <div className="tech-icons-text">Problem Solving & Analytical</div>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Postman} alt="Postman" />
-        <div className="tech-icons-text">Postman</div>
+        <a href="https://www.flaticon.com/" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/128/7959/7959324.png" width="25" /></a>
+        <div className="tech-icons-text">Team Coordination</div>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <FaRust fontSize={"24px"} />
-        <div className="tech-icons-text">Rust</div>
+        <a href="https://www.flaticon.com/" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/128/2997/2997954.png" width="25" /></a>
+        <div className="tech-icons-text">Process Improvement & Documentation</div>
       </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={AWS} alt="Postman" className="tech-icon-images" />
-        <div className="tech-icons-text">AWS</div>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Kafka} alt="Kafka" className="tech-icon-images" />
-        <div className="tech-icons-text">Kafka</div>
-      </Col>
+      
     </Row>
   );
 }
