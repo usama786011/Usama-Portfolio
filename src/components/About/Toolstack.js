@@ -11,14 +11,14 @@ function Toolstack() {
       {/* 🔹 First Row */}
       <Row style={{ justifyContent: "center" }}>
         <Col xs={4} md={2} className="tech-icons">
-          <a href="https://www.flaticon.com/" target="_blank" rel="noreferrer">
+          <a>
             <img src="https://cdn-icons-png.flaticon.com/128/8940/8940782.png" width="25" alt="Selenium" />
           </a>
           <div className="tech-icons-text">Selenium</div>
         </Col>
 
         <Col xs={4} md={2} className="tech-icons">
-          <a href="https://www.flaticon.com/" target="_blank" rel="noreferrer">
+          <a>
             <img src="https://cdn-icons-png.flaticon.com/128/5968/5968875.png" width="25" alt="JIRA" />
           </a>
           <div className="tech-icons-text">JIRA</div>
@@ -30,7 +30,7 @@ function Toolstack() {
         </Col>
 
         <Col xs={4} md={2} className="tech-icons">
-          <a href="https://www.flaticon.com/" target="_blank" rel="noreferrer">
+          <a>
             <img src="https://cdn-icons-png.flaticon.com/128/17949/17949428.png" width="25" alt="JMeter" />
           </a>
           <div className="tech-icons-text">JMeter</div>
