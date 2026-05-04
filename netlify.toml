@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [build]
   command = "npm run build"
   publish = "build"
@@ -9,3 +10,8 @@
   from = "/*"
   to = "/index.html"
   status = 200
+=======
+[build.environment]
+  NODE_VERSION = "20"
+  GENERATE_SOURCEMAP = "false"
+>>>>>>> d89e8a7 (Fix Netlify build warnings)
