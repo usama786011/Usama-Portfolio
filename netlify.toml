@@ -1,3 +1,17 @@
+<<<<<<< HEAD
 [build.environment]
   NODE_VERSION = "20"
   GENERATE_SOURCEMAP = "false"
+=======
+[build]
+  command = "npm run build"
+  publish = "build"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+>>>>>>> 97279e8eca8cda5beeda5cb9a13b391c8cae4d12
